@@ -76,16 +76,14 @@ ApplicationWindow {
                             color: "black"
 
                         }
-                        Text {
+                        TextEdit {
                             anchors.centerIn:  parent
                             id: name
                             text: qsTr("text")
                         }
-
 }
-
-                }
-            }
+}
+}
 
         WebView
         {
